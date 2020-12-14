@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="demo.css">
+	<title>web-sign</title>
+</head>
+<body >
+	<div class="header">
+        <div class="header-top">
+            <div class="container clear">
+            	<ul class="time">
+            		<li><p id="dateinfo"></p></li>
+            	</ul>
+                <ul class="header-info clear">
+                	<li id="subb"><a href="#">登录</a></li>
+                    <li><a href="#" id="regist">注册</a></li>
+                    <li><a href="#">签到有礼</a></li>
+                    <li><a href="#">我的订单</a></li>
+                    <li><a href="#">会员俱乐部</a></li>
+                    <li><a href="#">客户服务</a></li>
+                    <li class="iphone"><a href="#">移动客户端</a></li>
+                    <li class="weixin"><a href="#">微信</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="id1">
+        <div id="id2">
+            <h1>欢迎注册</h1>
+            <input id="input1"  type="text" name="username" placeholder="手机号/邮箱"/>
+            <P id="inid1"></P>
+            <input id="input01" type="password" name="pwd"placeholder="输入密码"/>
+            <P id="inid2"></P>
+            <input id="input001" type="password" name="qpwd"placeholder="确认密码" />
+            <P id="inid3"></P>
+            <p class="yzm">
+            	<input type="text" name="code" id="codeInput" class="code" placeholder="验证码">
+            	<span id="code" class="code_pic" title="看不清，换一张"></span>
+            </p>
+            <p class="errorTips" id="errorTips"></p>
+            <input id="input3" type="button" value="注册"/>
+            <input id="input5" type="button" value="取消"/>
+        </div>
+    </div>
+    <div id="id3">
+        <div id="id4">
+            <h1>欢迎登录</h1>
+            <input id="input2"  type="text" name="username" placeholder="手机号/邮箱"/>
+            <P id="inid4"></P>
+            <input id="input02" type="password" name="pwd"placeholder="输入密码"/>
+            <P id="inid5"></P>
+            <p class="yzm"><input type="text" name="code" id="codeInput1" class="code" placeholder="验证码"><span id="code1" class="code_pic" title="看不清，换一张"></span><P id="inid6"></P>
+            <p class="errorTips1" id="errorTips1"></p>
+            <input id="input4" type="button" value="登录"/>
+            <input id="input6" type="button" value="取消"/>
+        </div>
+    </div>
+	<div class="header-bottom">
+        <div class="container clear">
+            <img src="picture/logo.png" alt="logo图" class="logo" />
+            <ul class="nav clear">
+                <li class="first"><a href="#">100%正品</a></li>
+                <li class="second"><a href="#">88元免邮</a></li>
+                <li class="third"><a href="#">退换货无忧</a></li>
+                <li class="third"><a href="#">品牌大清仓</a></li>
+                <li class="third"><a href="#">3折狂欢购</a></li>
+            </ul>
+           	<form class="form1">
+                <input type="text" placeholder="搜索关键词" class="search" />
+                <input type="button" class="submit" />
+            </form>
+            <ul class="nav1">
+               	<li><a  class="nav1li" href="#">运动潮搭 2折起</a></li>
+                <li><a class="nav1li" href="#">全民疯抢节 3折封顶</a></li>
+                <li><a class="nav1li" href="#">精选爆款 狂享不止</a></li>
+                <li><a href="#">年中特卖节</a></li>
+            </ul>
+       	</div>
+	</div>
+	<div class="nav2">
+		<ul class="clear">
+			<li id="nav2l1">
+				<a href="#">商品分类</a>
+				<ul class="navv">
+					<li><a href="#">女装/男装</a></li>
+					<li><a href="#">女鞋/男鞋/箱包</a></li>
+					<li><a href="#">护肤彩妆/个护</a></li>
+					<li><a href="#">运动户外</a></li>
+					<li><a href="#">家电数码</a></li>
+					<li><a href="#">母婴童装</a></li>
+				</ul>
+			</li>
+			<li id="nav2l2"><a href="#">首页</a></li>
+			<li id="nav2l3"><a href="#">年终特卖节</a></li>
+			<li id="nav2l4"><a href="#">最后疯抢</a></li>
+			<li><a href="#">唯品快抢</a></li>
+			<li><a href="#">女装</a></li>
+			<li><a href="#">母婴</a></li>
+			<li><a href="#">家电</a></li>
+			<li><a href="#">文具</a></li>
+			<li><a href="#">美妆</a></li>
+			<li><a href="#">日用</a></li>
+			<li><a href="#">男装</a></li>
+			<li id="nav2l5">
+				<a href="#">更多</a>
+				<ul class="navv1">
+					<li><a href="#">运动</a></li>
+					<li><a href="#">家居</a></li>
+					<li><a href="#">生活</a></li>
+					<li><a href="#">配饰</a></li>
+					<li><a href="#">唯品·奢</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="banner" id="wrap">
+		<ul id="pic">
+			<li id="bannerone"><a href="#"><img src="picture/picture1.jpg"></a></li>
+			<li id="bannertwo"><a href="#"><img src="picture/picture2.jpg"></a></li>
+			<li id="bannerthree"><a href="#"><img src="picture/picture3.jpg"></a></li>
+		</ul>
+		<ul id="tag">
+			<li id="tagchild1"><img src="picture/leftPoint.jpg"></li>
+			<li id="tagchild2"><img src="picture/rightPoint.jpg"></li>
+		</ul>
+	</div>
+	<div class="nav-bot">
+		<ul class="nav-ul">
+			<li><a href="#">品牌文具 等你来抢</a></li>
+			<li><a href="#">年中特卖 亿元补贴</a></li>
+		</ul>
+	</div>
+	<div class="pp">
+		<p class="p1">专柜大牌 <span class="pp1">Brands</span><span><a class="pp2" href="#">更多好店></a></span></p>
+	</div>
+	<div class="bottom">
+		<ul class="pic" id="bpic">
+			<li id="picture11"><a href="#"><img class="piccc1" src="picture/pic1.jpg"></a></li>
+			<li><a href="#"><img class="piccc1" src="picture/pic2.jpg"></a></li>
+			<li><a href="#"><img class="piccc1" src="picture/pic3.jpg"></a></li>
+			<li><a href="#"><img class="piccc1" src="picture/pic4.jpg"></a></li>
+			<li><a href="#"><img class="piccc1" src="picture/pic5.jpg"></a></li>
+		</ul>
+		<ul class="wz">
+			<li id="li1">
+				<a href="#">
+					<img class="wz1" src="picture/picture1.png">
+					<p class="wzp">哈吉斯官网</p>
+					<p class="bot1"><span>时尚高层次休闲服饰</span></p>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="wz2" src="picture/picture2.png">
+					<p class="wzp">polo折扣店</p>
+					<p class="bot1"><span>美式休闲服饰</span></p>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="wz3" src="picture/picture3.png">
+					<p class="wzp">海蓝之家官方店</p>
+					<p class="bot1"><span>男人的衣柜</span></p>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="wz4" src="picture/picture4.png">
+					<p class="wzp">太平鸟男装官营店</p>
+					<p class="bot1"><span>品牌授权 官方正品</span></p>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="wz5" src="picture/picture5.png">
+					<p class="wzp">雪中飞官方店</p>
+					<p class="bot1"><span>雪中飞年轻人的羽绒服</span></p>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="pp3">
+		<p class="p2">好货优选 <span class="pp4">Goods</span><span><a class="pp5" href="#">更多好店></a></span></p>
+	</div>
+	<div>
+		<ul class="picc">
+			<li><a href="#"><img class="piccc2" src="picture/banner1.jpg"></a></li>
+			<li><a href="#"><img class="piccc2" src="picture/banner2.jpg"></a></li>
+			<li><a href="#"><img class="piccc2" src="picture/banner3.jpg"></a></li>
+			<li><a href="#"><img class="piccc2" src="picture/banner4.jpg"></a></li>
+			<li><a href="#"><img class="piccc2" src="picture/banner5.jpg"></a></li>
+		</ul>
+		<ul class="WZ">
+			<li>
+				<p class="pp0">做梦家秋季新款原创设计薄款</p>
+				<p class="bot1">促销价&nbsp;<span>￥188</span></p>
+			</li>				
+			<li class="bot2">
+				<p class="pp0">Equality自制春季日系复古简约</p>
+				<p class="bot1">促销价&nbsp;<span>￥188</span></p>
+			</li>				
+			<li class="bot3">
+				<p class="pp0">写意秋季新款日系复古文艺</p>
+				<p class="bot1">促销价&nbsp;<span>￥178</span></p>
+			</li>
+			<li class="bot4">
+				<p class="pp0">英伦双排扣商务西服男士修身</p>
+				<p class="bot1">促销价&nbsp;<span>￥258</span></p>
+			</li>
+			<li class="bot5">
+				<p class="pp0">HAART CONSTRAINT 拘束</p>
+				<p class="bot1">促销价&nbsp;<span>￥399</span></p>
+			</li>
+		</ul>
+	</div>
+	<div>
+		<ul class="picc1">
+			<li><a href="#"><img class="piccc2" src="picture/banner6.jpg"></a></li>
+			<li><a href="#"><img class="piccc2" src="picture/banner7.jpg"></a></li>
+			<li><a href="#"><img class="piccc2" src="picture/banner8.jpg"></a></li>
+			<li><a href="#"><img class="piccc2" src="picture/banner9.jpg"></a></li>
+			<li><a href="#"><img class="piccc2" src="picture/banner10.jpg"></a></li>
+		</ul>
+		<ul class="WZ">
+			<li>
+				<p class="pp0">【清仓】</p>
+				<p class="bot1">促销价&nbsp;<span>￥274.5</span></p>
+			</li>
+			<li class="bot2">
+				<p class="pp0">英伦时尚绅士双排扣商务西服</p>
+				<p class="bot1">促销价&nbsp;<span>￥258</span></p>
+			</li>
+			<li class="bot3">
+				<p class="pp0">ONEMAX春季新/气质纯色单</p>
+				<p class="bot1">促销价&nbsp;<span>￥149</span></p>
+			</li>
+			<li class="bot4">
+				<p class="pp0">ENSHADOWER隐蔽者可折</p>
+				<p class="bot1">促销价&nbsp;<span>￥899</span></p>
+			</li>				
+			<li class="bot5">
+				<p class="pp0">大花小花男装原创定制 冬新</p>
+				<p class="bot1">促销价&nbsp;<span>￥309</span></p>
+			</li>
+		</ul>
+	</div>
+	<img  class="navpic" src="picture/nav.jpg">
+	<div class="navbott">
+		<div class="navbott1">
+			<h5>个性风潮</h5>
+			<ul class="navwz">
+				<li id="navwz1"><a href="#">oversize</a></li>
+				<li><a href="#">中性</a></li>
+				<li><a href="#">拼接</a></li>
+				<li><a href="#">接头</a></li>
+				<li><a href="#">国潮</a></li>
+				<li><a href="#">运动</a></li>
+				<li><a href="#">机能</a></li>
+				<li><a href="#">涂鸦</a></li>
+				<li><a href="#">印花</a></li>
+				<li><a href="#">个性</a></li>
+			</ul>
+			<ul class="navbott3">
+				<li id="navwz2">
+					<a href="#"><img src="picture/navpicture1.jpg"></a>
+					<p class="p5">联名款</p>
+				</li>
+				<li id="navwz3">
+					<a href="#"><img src="picture/navpicture2.jpg"></a>
+					<p class="p6">设计师</p>
+				</li>
+			</ul>
+		</div>
+		<div class="navbott2">
+			<ul class="navbottom">
+			<li>
+				<a href="#"><img class="navpicc" src="picture/picc1.jpg"></a>
+				<p><a href="#">古系暗古风</a></p>
+			</li>
+			<li>
+				<a href="#"><img class="navpicc" src="picture/picc2.jpg"></a>
+				<p><a href="#">机能国潮原创服饰</a></p>
+			</li>
+			<li>
+				<a href="#"><img  src="picture/picc3.jpg"></a>
+			</li>
+			<li>
+				<a href="#"><img class="navpicc" src="picture/picc4.jpg"></a>
+				<p><a href="#">年轻人的个性潮牌</a></p>
+			</li>
+			<li>
+				<a href="#"><img class="navpicc" src="picture/picc5.jpg"></a>
+				<p><a href="#">不逐流自潮牌</a></p>
+			</li>
+			<li>
+				<a href="#"><img class="navpicc" src="picture/picc6.jpg"></a>
+				<p><a href="#">全球潮流好牌聚集</a></p>
+			</li>
+		</ul>
+		</div>
+	</div>
+	<div class="bottom1">
+		<ul class="logopic">
+			<li class="promise">
+				<img src="picture/botlogo1.jpg">
+				<p><a href="#">正品保障</a></p>
+				<p class="p7">正品保障、提供发票</p>
+			</li>
+			<li class="fast">
+				<img src="picture/botlogo2.jpg">
+				<p><a href="#">急速物流</a></p>
+				<p class="p7">如约送货、送货入户</p>
+			</li>
+			<li class="after">
+				<img src="picture/botlogo3.jpg">
+				<p><a href="#">售后无忧</a></p>
+				<p class="p7">30天包退、365天包换</p>
+			</li>
+			<li class="charact">
+				<img src="picture/botlogo4.jpg">
+				<p><a href="#">特色服务</a></p>
+				<p class="p7">私人定制家电套餐</p>
+			</li>
+			<li class="help">
+				<img src="picture/botlogo5.jpg">
+				<p><a href="#">帮助中心</a></p>
+				<p class="p7">您的购物指南</p>
+			</li>
+		</ul>
+		<div class="list">
+			<ul class="ul1">
+				<li id="ul11">购物指南</li>
+				<li><a href="#">免费注册</a></li>
+				<li><a href="#">会员等级</a></li>
+				<li><a href="#">常见问题</a></li>
+				<li><a href="#">品牌大全</a></li>
+			</ul>
+			<ul class="ul2">
+				<li id="ul11">支付方式</li>
+				<li><a href="#">苏宁支付</a></li>
+				<li><a href="#">网银支付</a></li>
+				<li><a href="#">快捷支付</a></li>
+				<li><a href="#">分期支付</a></li>
+				<li><a href="#">货到付款</a></li>
+				<li><a href="#">任性付支付</a></li>
+			</ul>
+			<ul class="ul3">
+				<li id="ul11">物流配送</li>
+				<li><a href="#">运费政策</a></li>
+				<li><a href="#">物流配送服务</a></li>
+				<li><a href="#">签收验货</a></li>
+				<li><a href="#">物流查询</a></li>
+			</ul>
+			<ul class="ul4">
+				<li id="ul11">售后服务</li>
+				<li><a href="#">退还政策</a></li>
+				<li><a href="#">贵就赔</a></li>
+				<li><a href="#">维修/安装</a></li>
+				<li><a href="#">订单修改</a></li>
+				<li><a href="#">退换货申请</a></li>
+				<li><a href="#">我的发票</a></li>
+			</ul>
+			<ul class="ul5">
+				<li id="ul11">商家服务</li>
+				<li><a href="#">合作招商</a></li>
+				<li><a href="#">培训中心</a></li>
+				<li><a href="#">广告服务</a></li>
+				<li><a href="#">商家帮助</a></li>
+				<li><a href="#">服务市场</a></li>
+				<li><a href="#">规则中心</a></li>
+			</ul>
+		</div>
+	</div>
+	<div>
+		<ul class="ng-list">
+			<li><a href="#">苏宁互联 <span>|</span></a></li>
+			<li><a href="#">苏宁金融<span>|</span></a></li>
+			<li><a href="#">苏宁支付<span>|</span></a></li>
+			<li><a href="#">PP视频<span>|</span></a></li>
+			<li><a href="#">红孩子<span>|</span></a></li>
+			<li><a href="#">苏宁物流<span>|</span></a></li>
+			<li><a href="#">手机苏宁<span>|</span></a></li>
+			<li><a href="#">零售云<span>|</span></a></li>
+			<li><a href="#">苏宁云<span>|</span></a></li>
+			<li><a href="#">知识产权举报<span>|</span></a></li>
+			<li><a href="#">投资者关系<span>|</span></a></li>
+			<li><a href="#">苏宁只能</a></li>
+		</ul>
+		<ul class="ng-list1">
+			<li><a href="#">联系我们<span>|</span></a></li>
+			<li><a href="#">诚聘英才<span>|</span></a></li>
+			<li><a href="#">合作招商<span>|</span></a></li>
+			<li><a href="#">广告平台<span>|</span></a></li>
+			<li><a href="#">苏宁联盟<span>|</span></a></li>
+			<li><a href="#">苏宁招标<span>|</span></a></li>
+			<li><a href="#">隐私政策<span>|</span></a></li>
+			<li><a href="#">用户体验<span>|</span></a></li>
+			<li><a href="#">股东会员认证</a></li>
+		</ul>
+		<ul class="ng-list2">
+			<li><a href="#">Copyright© 2002-2020，苏宁易购集团股份有限公司版权所有<span>|</span></a></li>
+			<li><a href="#">苏公网安备 32010202010078号<span>|</span></a></li>
+			<li><a href="#">苏ICP备10207551号-4</a></li>
+		</ul>
+		<ul class="ng-list3">
+			<li><a href="#">合字B2-20180025 <span>|</span></a></li>
+			<li><a href="#">合字A1.B1.B2-20180017<span>|</span></a></li>
+			<li><a href="#"> 出版物经营许可证新出发苏批字第A-243号</a></li>
+			<li><a href="#">互联网药品信息服务资格证书（苏）-非经营性-2016-0005</a></li>
+		</ul>
+		<ul class="ng-list4">
+			<li><a href="#">经营执照 <span>|</span></a></li>
+			<li><a href="#">网络文化经营许可证：苏网文〔2018〕10580-203号<span>|</span></a></li>
+			<li><a href="#">互联网违法和不良信息举报邮箱：kfpt-yy@cnsuning.com</a></li>
+			<li><a href="#"> 举报电话：02566996699-865948</a></li>
+		</ul>
+	</div>
+	<p class="p8"><a href="#">医疗器械网络交易服务第三方平台备案凭证-（苏）网械平台备字（2018）第00052号</a></p>
+	<p class="p8"><a href="#">本网站直接或间接向消费者推销商品或者服务的商业宣传均属于“广告”（包装及参数、售后保障等商品信息除外）</a></p>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
